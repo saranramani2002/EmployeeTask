@@ -1,5 +1,4 @@
 
-
 """ Here creating csv file with the details about emplopyees such as name,id,age,designation ,mob_number """
 
 import csv
