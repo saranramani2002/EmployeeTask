@@ -2,13 +2,7 @@ import csv
 
 """ Here creating csv file with the details about emplopyees such as name,id,age,designation ,mob_number """
 
-def writeCsvFile(file_name,data):
-    with open(file_name,"w",newline="") as file:
-        empData = csv.writer(file)
-        empData.writerows(data)
-
 details = (
-    ("Employee Id","Employee Name","Employee Age","Designation","Contact Number"),
     ("Emp1","Vinoth","23","Fluter Developer","7345344378"),
     ("Emp2","Daya","29","Team Lead","7898775659"),
     ("Emp3","Navin","22","React Developer","6363788932"),
@@ -22,5 +16,10 @@ details = (
     ("Emp11","Gokul","30","DotNet","7356876599"),
     ("Emp12","Sarath","28","React Senior Developer","6789654470")
 )
+def writeCsvFile(file_name,data):
+    with open(file_name,"w",newline="") as file:
+        empData = csv.writer(file)
+        empData.writerow(("Employee Id","Employee Name","Employee Age","Designation","Contact Number"))
+        empData.writerows(data)
 
 writeCsvFile("EmployeeDatas.csv",details)
