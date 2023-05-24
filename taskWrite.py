@@ -1,5 +1,7 @@
 import csv
 
+""" Here creating csv file with the details about emplopyees such as name,id,age,designation ,mob_number """
+
 def writeCsvFile(file_name,data):
     with open(file_name,"w",newline="") as file:
         empData = csv.writer(file)

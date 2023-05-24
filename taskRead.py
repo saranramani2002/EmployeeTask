@@ -1,5 +1,9 @@
 import csv
 
+""" Here reading csv file using generator with the details about emplopyees such as name,id,age,designation ,mob_number
+    And seperately creating csv files by age of below 25 and between 25&45
+"""
+
 def readCsvFile(file_name):
     with open(file_name,"r") as readFile:
         empDatas = csv.reader(readFile)
