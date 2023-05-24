@@ -1,6 +1,9 @@
-import csv
+
 
 """ Here creating csv file with the details about emplopyees such as name,id,age,designation ,mob_number """
+
+import csv
+
 details = (
     ("Employee Id","Employee Name","Employee Age","Designation","Contact Number"),
     ("Emp1","Vinoth","23","Fluter Developer","7345344378"),
@@ -16,6 +19,7 @@ details = (
     ("Emp11","Gokul","30","DotNet","7356876599"),
     ("Emp12","Sarath","28","React Senior Developer","6789654470")
 )
+
 def writeCsvFile(file_name,data):
     with open(file_name,"w",newline="") as file:
         empData = csv.writer(file)
