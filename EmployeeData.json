@@ -3,49 +3,49 @@
         "Employee Id": "Emp1",
         "Employee Name": "Vinoth",
         "Employee Age": "23",
-        "Designation": "Fluter Developer",
+        "Designation": "Fluter Developer intern",
         "Contact Number": "7345344378"
     },
     {
         "Employee Id": "Emp2",
         "Employee Name": "Daya",
-        "Employee Age": "29",
+        "Employee Age": "28",
         "Designation": "Team Lead",
-        "Contact Number": "7898775659"
+        "Contact Number": "9243456784"
     },
     {
         "Employee Id": "Emp3",
         "Employee Name": "Navin",
         "Employee Age": "22",
-        "Designation": "React Developer",
-        "Contact Number": "6363788932"
+        "Designation": "React Intern",
+        "Contact Number": "63634567880"
     },
     {
         "Employee Id": "Emp4",
         "Employee Name": "Murali",
         "Employee Age": "42",
         "Designation": "GM",
-        "Contact Number": "9561345289"
+        "Contact Number": "7373546789"
     },
     {
         "Employee Id": "Emp5",
         "Employee Name": "Athiyaman",
         "Employee Age": "23",
-        "Designation": "Python Developer",
-        "Contact Number": "7373456782"
+        "Designation": "Python Intern",
+        "Contact Number": "9786756442"
     },
     {
         "Employee Id": "Emp6",
         "Employee Name": "Sachin",
-        "Employee Age": "20",
-        "Designation": "Fluter Developer",
-        "Contact Number": "7363456432"
+        "Employee Age": "21",
+        "Designation": "Fluter intern",
+        "Contact Number": "6345678903"
     },
     {
         "Employee Id": "Emp7",
         "Employee Name": "Saran",
-        "Employee Age": "21",
-        "Designation": "Python Developer",
+        "Employee Age": "22",
+        "Designation": "Python Intern",
         "Contact Number": "9344291466"
     },
     {
@@ -53,34 +53,34 @@
         "Employee Name": "Poovarasan",
         "Employee Age": "27",
         "Designation": "Senior Developer",
-        "Contact Number": "7341576892"
+        "Contact Number": "7856785432"
     },
     {
         "Employee Id": "Emp9",
         "Employee Name": "Manikandan",
         "Employee Age": "48",
         "Designation": "PDM",
-        "Contact Number": "8765785620"
+        "Contact Number": "7868787900"
     },
     {
         "Employee Id": "Emp10",
         "Employee Name": "Lakshmi",
         "Employee Age": "27",
-        "Designation": "Python Senior Developer",
-        "Contact Number": "9786786549"
+        "Designation": "Python senior developer",
+        "Contact Number": "9786543299"
     },
     {
         "Employee Id": "Emp11",
         "Employee Name": "Gokul",
         "Employee Age": "30",
-        "Designation": "DotNet",
-        "Contact Number": "7356876599"
+        "Designation": "Dotnet",
+        "Contact Number": "7889668967"
     },
     {
         "Employee Id": "Emp12",
         "Employee Name": "Sarath",
         "Employee Age": "28",
-        "Designation": "React Senior Developer",
-        "Contact Number": "6789654470"
+        "Designation": "React senior developer",
+        "Contact Number": "7867987890"
     }
 ]
