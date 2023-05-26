@@ -1,10 +1,8 @@
-
+import csv
+import json
 
 """ Here we convert csv file as json file using csv and json modules
     converting total employees detail """
-
-import csv
-import json
 
 def convertFile(csvFileName):
     with open(csvFileName,"r") as file:
@@ -31,7 +29,8 @@ def convertBelowAge(fileName):
             with open("EmployeeBelowData.json","w") as file1:
                 json.dump(EmployeeDetail,file1,indent=4)
 
-convertBelowAge("EmployeeBelowData.csv")
+convertBelowAge("Employee_Below_25_Data.csv")
+
 
 
 """ Here we convert csv file as json file using csv and json modules
@@ -47,4 +46,4 @@ def convertAboveFile(csvFileName):
             with open("EmployeeAboveData.json","w") as file1:
                 json.dump(EmployeeDetail,file1,indent=4)
 
-convertAboveFile("EmployeeAboveData.csv")
+convertAboveFile("Employee_Between_25_45_Data.csv")

@@ -5,7 +5,6 @@
 """
 
 import csv
-import json
 
 def readCsvFile(file_name):
     with open(file_name,"r") as readFile:
@@ -32,5 +31,5 @@ def readCsvFile(file_name):
 
 for data in readCsvFile("EmployeeDatas.csv"):
     for employee in data:
-        print(json.dump(employee,file1,indent=4))
-        # print(employee)
+        print(employee)
+
