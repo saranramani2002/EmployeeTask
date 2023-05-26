@@ -1,7 +1,6 @@
+import csv
 
 """ Here creating csv file with the details about emplopyees such as name,id,age,designation ,mob_number """
-
-import csv
 
 # details = (
 #     ("Employee Id","Employee Name","Employee Age","Designation","Contact Number"),
